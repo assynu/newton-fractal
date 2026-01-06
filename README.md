@@ -26,9 +26,6 @@ The code is provided as-is for reference and educational purposes.
 
 ## Build
 
-The project uses **CMake**. A typical build flow:
-
-```bash
 ### Build
 ```bash
 $: make

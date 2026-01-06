@@ -1,0 +1,81 @@
+# Build directories
+build/
+build-*/
+out/
+cmake-build-*/
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+
+# ISPC generated files
+*.ispc.generated.cpp
+*.ispc.generated.h
+*.ispc.h
+*.ispc.obj
+*.ispc.o
+*.ispc.bc
+*.ispc.s
+ispc_output/
+ispc_cache/
+
+# Object files / binaries
+*.o
+*.obj
+*.lo
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Logs & temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.code-workspace
+*.sln
+*.vcxproj*
+*.user
+*.ncb
+*.suo
+*.ipch
+*.db
+
+# OS generated files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# CCache
+ccache/
+.cache/
+
+# Ninja
+.ninja_log
+.ninja_deps
